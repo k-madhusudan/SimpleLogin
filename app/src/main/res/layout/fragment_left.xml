@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/leftfrag"
+    android:orientation="vertical"
+    tools:context="com.ed.simplelogin.LeftListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:text="Red"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        />
+
+    <Button
+        android:text="Green"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="Blue"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+</LinearLayout>
